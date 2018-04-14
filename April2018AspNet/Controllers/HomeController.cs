@@ -15,12 +15,7 @@ namespace April2018AspNet.Controllers
             return View();
         }
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
+       
 
         public IActionResult Contact()
         {
@@ -36,6 +31,7 @@ namespace April2018AspNet.Controllers
 
         public IActionResult Test()
         {
+            int a = 10;
             return View();
         }
     }
