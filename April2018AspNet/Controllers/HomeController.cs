@@ -31,7 +31,7 @@ namespace April2018AspNet.Controllers
 
         public IActionResult Test()
         {
-            int a = 10;
+            int a = 20;
             return View();
         }
     }
