@@ -16,6 +16,7 @@ namespace April2018AspNet.Controllers
 
         public IActionResult Index()
         {
+            string a = "This is new variable";
             return View();
         }
 
