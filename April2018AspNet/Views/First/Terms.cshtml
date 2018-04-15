@@ -1,12 +1,26 @@
 ﻿
+
+@*@for (int i = 0; i < 10; i++)
+{
+<h1>
+   @ViewBag.StudentName
+</h1>
+}*@
+
+<h1>
+    ViewBag.StudentName
+</h1>
+
+
 @{
-    ViewData["Title"] = "Terms";
-}
-
-<h2>Terms</h2>
+    Student S = ViewBag.Student;    
+ }
 
 
-<h1>this is h1 tag</h1>
 
-
-<a>this is anchor tag</a>
+<h2>
+    @S.Name
+</h2>
+<p>
+    @S.Email
+</p>
